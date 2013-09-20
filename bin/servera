@@ -1,0 +1,49 @@
+#!/usr/bin/env node
+
+/* Modules */
+
+var Servera = require('../lib/app'),
+    program = require('commander'),
+    pkg = require('../package.json');
+
+/* CLI */
+
+program
+  .command('*')
+  .description('Serve the project')
+  .action(function(project) {
+    Servera.run(project);
+  });
+
+program
+  .command('.')
+  .description('Serve the current directory')
+  .action(function() {
+    Servera.run('cwd');
+  });
+
+program
+  .command('list')
+  .description('List all projects')
+  .action(function() {
+    Servera.list();
+  });
+
+program
+  .command('init')
+  .description('Create the ".servera.json" file')
+  .action(function() {
+    Servera.init();
+  });
+
+program.on('--help', function(){
+  console.log('  Examples:');
+  console.log('');
+  console.log('    $ servera myproject');
+  console.log('    $ servera .');
+  console.log('');
+});
+
+program
+  .version(pkg.version)
+  .parse(process.argv);

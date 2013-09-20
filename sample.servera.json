@@ -1,0 +1,10 @@
+{
+  "myproject": {
+    "dir": "/home/USERNAME/Dev/myproject",
+    "port": 3000
+  },
+  "anotherproject": {
+    "dir": "C:/Users/USERNAME/Dev/anotherproject",
+    "port": 6000
+  }
+}

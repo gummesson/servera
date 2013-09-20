@@ -1,0 +1,32 @@
+{
+  "name": "servera",
+  "version": "0.1.0",
+  "description": "Manage and serve your local static sites.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gummesson/servera.git"
+  },
+  "author": "Ellen Gummesson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gummesson/servera/issues"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "preferGlobal": "true",
+  "main": "./lib/app.js",
+  "bin": {
+    "servera": "./bin/servera"
+  },
+  "dependencies": {
+    "connect": "~2.9.0",
+    "fs-extra": "~0.6.4",
+    "commander": "~2.0.0",
+    "colors": "~0.6.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.4"
+  }
+}

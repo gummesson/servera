@@ -36,7 +36,7 @@ program
     Servera.init();
   });
 
-program.on('--help', function(){
+program.on('--help', function() {
   console.log('  Examples:');
   console.log('');
   console.log('    $ servera myproject');

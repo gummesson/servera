@@ -31,7 +31,7 @@ program
 
 program
   .command('init')
-  .description('Create the ".servera.json" file')
+  .description('Create the ".servera.json" configuration file')
   .action(function() {
     Servera.init();
   });

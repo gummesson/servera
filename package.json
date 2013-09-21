@@ -1,6 +1,6 @@
 {
   "name": "servera",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Manage and serve your local static sites.",
   "repository": {
     "type": "git",

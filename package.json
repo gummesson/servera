@@ -15,7 +15,7 @@
     "node": ">= 0.10.0"
   },
   "preferGlobal": "true",
-  "main": "./lib/app.js",
+  "main": "./lib/servera.js",
   "bin": {
     "servera": "./bin/servera"
   },

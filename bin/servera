@@ -2,7 +2,7 @@
 
 /* Modules */
 
-var Servera = require('../lib/app'),
+var Servera = require('../lib/servera'),
     program = require('commander'),
     pkg = require('../package.json');
 

@@ -1,6 +1,6 @@
 {
   "name": "servera",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Manage and serve your local static sites.",
   "repository": {
     "type": "git",
@@ -20,10 +20,10 @@
     "servera": "./bin/servera"
   },
   "dependencies": {
-    "connect": "~2.9.0",
-    "fs-extra": "~0.7.1",
+    "connect": "~2.9.2",
+    "fs-extra": "~0.8.0",
     "commander": "~2.0.0",
-    "chalk": "~0.2.1"
+    "chalk": "~0.3.0"
   },
   "devDependencies": {
     "grunt": "~0.4.1",

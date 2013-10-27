@@ -1,5 +1,8 @@
 # Servera
 
+[![NPM version](https://badge.fury.io/js/servera.png)](http://badge.fury.io/js/servera)
+[![Dependency Status](https://gemnasium.com/gummesson/servera.png)](https://gemnasium.com/gummesson/servera)
+
 *Servera* manages and serve your local static sites.
 
 It's heavily inspired by [distra](https://github.com/phuu/distra), although it's a dumbed down version without the whole `/etc/hosts` configuration part.
@@ -9,7 +12,7 @@ It works on both Windows and Linux, and should hopefully work on OS X too.
 ## Installation
 
 ~~~
-npm install servera -g
+npm install -g servera
 ~~~
 
 ## Configuration

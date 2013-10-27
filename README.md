@@ -7,7 +7,7 @@
 
 It's heavily inspired by [distra](https://github.com/phuu/distra), although it's a dumbed down version without the whole `/etc/hosts` configuration part.
 
-It works on both Windows and Linux, and should hopefully work on OS X too.
+It's been tested on both Windows and Linux, and should hopefully work on OS X too.
 
 ## Installation
 

@@ -1,0 +1,6 @@
+{
+  "introduction" : "<p><b>Servera</b> manages and serve your local static sites. It's heavily inspired by <a href=\"https://github.com/phuu/distra\">distra</a>, although it's a dumbed down version without the whole <code>/etc/hosts</code> configuration part.</p><p>It's been tested on both Windows and Linux, and should hopefully work on OS X too.</p>",
+  "usage"        : "Run <code>servera init</code>, go to your home directory (<code>~/</code> or <code>C:\\Users\\USERNAME</code>) and edit the <code>.servera.json</code> file to match your projects.",
+  "stylesheet"   : "assets/css/style.css",
+  "endorse"      : true
+}

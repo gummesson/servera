@@ -1,3 +1,5 @@
 assets/
+site/
+.sass-cache/
 .gitmodules
 geno.json
